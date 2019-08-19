@@ -2307,6 +2307,7 @@ textarea {
 #msg_input {
     border: 2px solid rgba(134, 134, 134, 0);
     color: #424242;
+    margin: 0;
 }
 
 #col_messages {
