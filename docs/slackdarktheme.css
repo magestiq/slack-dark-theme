@@ -205,7 +205,7 @@ ts-message .mention {
 .upload_in_threads.has_focus .inline_message_input_container .inline_file_upload {
     background: #008952 !important;
     border: 2px solid #008952 !important;
-    color: white !important;
+    color: #31353d !important;
 }
 
 #primary_file_button:hover {
@@ -239,7 +239,7 @@ ts-message .mention {
 
 .p-share_dialog_message_input {
     background: black !important;
-    color: white !important;
+    color: #31353d !important;
 }
 
 .p-file_upload_dialog__preview {
@@ -1419,7 +1419,7 @@ p {
 }
 
 textarea.c-input_textarea.c-input_textarea--with_hint {
-    color: white;
+    color:  #424242;
 }
 
 .c-sidebar_menu__list li .c-link--button {
@@ -1496,7 +1496,7 @@ textarea.c-input_textarea.c-input_textarea--with_hint {
 
 .texty_legacy.texty_single_line_input .ql-editor,
 .texty_legacy.texty_single_line_input .ql-placeholder {
-    color: white !important;
+    color:  #424242 !important;
 }
 
 .p-flexpane_header__primary_content {
@@ -2046,7 +2046,7 @@ input[type=email],
 input[type=password],
 select,
 textarea {
-    color: white;
+    color:  #424242;
 }
 
 .lazy_filter_select .lfs_list .lfs_item.active {
@@ -2307,12 +2307,8 @@ textarea {
 #msg_input {
     overflow: auto;
     margin: 0;
-    width: 100%;
-    min-height: 42px;
-    height: 38px;
-    max-height: 180px;
     border: 2px solid rgba(134, 134, 134, 0);
-    color: #fff;
+    color: #424242;
 }
 
 #col_messages {
