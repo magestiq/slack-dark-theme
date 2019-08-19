@@ -2305,8 +2305,6 @@ textarea {
 }
 
 #msg_input {
-    overflow: auto;
-    margin: 0;
     border: 2px solid rgba(134, 134, 134, 0);
     color: #424242;
 }
