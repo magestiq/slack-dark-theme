@@ -198,7 +198,7 @@ ts-message .mention {
     width: 100%;
     background: #31353d !important;
     border: 1px solid #31353d !important;
-    color: white !important;
+    color: #31353d !important;
 }
 
 .upload_in_threads .inline_message_input_container:hover .inline_file_upload,
