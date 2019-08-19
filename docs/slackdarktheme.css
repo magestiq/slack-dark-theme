@@ -198,14 +198,14 @@ ts-message .mention {
     width: 100%;
     background: #31353d !important;
     border: 1px solid #31353d !important;
-    color: #31353d !important;
+    color: white !important;
 }
 
 .upload_in_threads .inline_message_input_container:hover .inline_file_upload,
 .upload_in_threads.has_focus .inline_message_input_container .inline_file_upload {
     background: #008952 !important;
     border: 2px solid #008952 !important;
-    color: #31353d !important;
+    color: white !important;
 }
 
 #primary_file_button:hover {
@@ -239,7 +239,7 @@ ts-message .mention {
 
 .p-share_dialog_message_input {
     background: black !important;
-    color: #31353d !important;
+    color: white !important;
 }
 
 .p-file_upload_dialog__preview {
@@ -720,7 +720,6 @@ a:hover {
 
 #msg_input {
     background: #424242 !important;
-    margin: 0px;
 }
 
 .p-file_list__empty {
@@ -1420,7 +1419,7 @@ p {
 }
 
 textarea.c-input_textarea.c-input_textarea--with_hint {
-    color:  #424242;
+    color: white;
 }
 
 .c-sidebar_menu__list li .c-link--button {
@@ -1497,7 +1496,7 @@ textarea.c-input_textarea.c-input_textarea--with_hint {
 
 .texty_legacy.texty_single_line_input .ql-editor,
 .texty_legacy.texty_single_line_input .ql-placeholder {
-    color:  #424242 !important;
+    color: white !important;
 }
 
 .p-flexpane_header__primary_content {
@@ -2047,7 +2046,7 @@ input[type=email],
 input[type=password],
 select,
 textarea {
-    color:  #424242;
+    color: white;
 }
 
 .lazy_filter_select .lfs_list .lfs_item.active {
@@ -2306,9 +2305,14 @@ textarea {
 }
 
 #msg_input {
+    overflow: auto;
+    margin: 0;
+    width: 100%;
+    min-height: 42px;
+    height: 38px;
+    max-height: 180px;
     border: 2px solid rgba(134, 134, 134, 0);
-    color: #424242;
-    margin: 0px;
+    color: #fff;
 }
 
 #col_messages {
@@ -2574,7 +2578,7 @@ c-keyboard_key {
 
 #msg_form .ql-editor,
 #msg_form .ql-placeholder {
-    opacity: 0.4, color:#424242
+    opacity: 0.4, color:white
 }
 
 .supports_custom_scrollbar .texty_legacy .ql-editor,
@@ -3233,6 +3237,10 @@ div.p-message_pane__foreword__description span {
     color: white;
     font-size: 14.6px;
     letter-spacing: -0.3px !important;
+}
+
+.workspace__primary_view_footer {
+    background: #222222 !important;
 }
 
 .p-workspace--classic-nav .p-workspace__primary_view_footer {
